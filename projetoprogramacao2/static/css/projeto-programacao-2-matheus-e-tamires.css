@@ -10,17 +10,19 @@
 }
 
 body {
-    background-color: rgba(38, 182, 69, 0.781);
+    background-color: #F6F8FC;
 }
 
 
 main {
-    background-color: #F6F8FC;
     border-radius: 10px;
     margin: auto;
     min-width: 320px;
     max-width: 1400px;
     padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -46,12 +48,15 @@ h1 {
 
 article {
     border-top: solid 1px gray;
-    padding-top: 24px;
+    padding: 24px 0px 12px 0px;
+    height: 341px;
+
 }
 
 h2 {
     display: inline-block;
     color: black;
+    height: 108px;
 }
 
 h2:hover {
@@ -59,13 +64,11 @@ h2:hover {
 }
 
 a > img {
-    display: inline-block;
     border-radius: 10px;
     float: right;
     width: 45px;
     height: 45px;
-    margin-left: 6px;
-    margin-bottom: 6px;
+    margin: 12px 0px 6px 6px;
 }
 
 p {
@@ -75,12 +78,10 @@ p {
 
 div {
     padding-top: 45px;
-    padding-bottom: 11px;
     margin: 0px 0px 0px 0px;
 }
 
 img.logo {
-    display: inline-block;
     width: 20px;
     height: 20px;
     float: right;

@@ -11,4 +11,4 @@ cmd
     django-admin startproject [nome do projeto]
     cd [nome do projeto]
     py manage.py startapp [nome do app]
-    py manage.py runserver (para testar)
+    cd (para testar)
