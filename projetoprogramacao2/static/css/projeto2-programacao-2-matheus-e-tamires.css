@@ -25,7 +25,7 @@ main {
 
 section {
     background-color: #FFFFFF;
-    display: inline-block;
+    display: inline-table;
     border:  solid 2px rgba(0, 0, 0, 0.060);
     border-radius: 17px;
     padding: 16px 16px 6px 16px;
@@ -34,6 +34,7 @@ section {
     margin-right: 16px;
     min-width: 274px;
     max-width: 370px;
+    height: 1145px;
 }
 
 h1 {
