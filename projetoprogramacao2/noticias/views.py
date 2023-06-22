@@ -16,7 +16,7 @@ def ler_projeto2():
         soup = BeautifulSoup(html, 'html.parser')
         img_tag = soup.find('img')
         src = img_tag['src']
-        alt = img_tag['alt']
+        alt = img_tag['alt'] if 'alt' in img_tag else ''
         descricao = "Esse rss não tem descricao"
         if 'summary_detail' in noticia:
             descricao = noticia['summary_detail']['value']
